@@ -1,0 +1,26 @@
+@tailwind preflight;
+
+@tailwind components;
+
+a {
+    @apply .no-underline .text-teal;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.top-nav-item {
+    @apply .text-grey-darker .text-sm .border-b-2 .border-solid .border-transparent .mr-4 .font-semibold .pb-6;
+
+    &:hover {
+        @apply .border-teal .text-teal .no-underline;
+    }
+
+}
+
+.hero {
+    background: url("https://pbs.twimg.com/profile_banners/895273477711769600/1502285115/1500x500");
+}
+
+@tailwind utilities;
